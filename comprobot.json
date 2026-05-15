@@ -3,21 +3,13 @@
   "description": "A self-hostable Discord bot built for maximum customization.",
   "homepage": "https://badluma.github.io/Comprobot-Docs",
   "license": "MIT",
-  "depends": "python",
-  "installer": {
-    "script": "pip install comprobot==$version"
-  },
-  "uninstaller": {
-    "script": "pip uninstall -y comprobot"
-  },
-  "architecture": {
-    "64bit": {},
-    "32bit": {},
-    "arm64": {}
-  },
+  "url": "https://github.com/badluma/Comprobot/releases/download/v2.3.1/comprobot-windows.exe",
+  "hash": "c829f0f6890c500d8bf7cb8099345b6168d47e2bd939f60296556f125553d2ef",
+  "bin": [["comprobot-windows.exe", "comprobot"]],
   "checkver": {
-    "url": "https://pypi.org/pypi/comprobot/json",
-    "jsonpath": "$.info.version"
+    "github": "https://github.com/badluma/Comprobot"
   },
-  "autoupdate": {}
+  "autoupdate": {
+    "url": "https://github.com/badluma/Comprobot/releases/download/v$version/comprobot-windows.exe"
+  }
 }
