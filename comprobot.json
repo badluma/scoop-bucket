@@ -10,6 +10,11 @@
   "uninstaller": {
     "script": "pip uninstall -y comprobot"
   },
+  "architecture": {
+    "64bit": {},
+    "32bit": {},
+    "arm64": {}
+  },
   "checkver": {
     "url": "https://pypi.org/pypi/comprobot/json",
     "jsonpath": "$.info.version"
