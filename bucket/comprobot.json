@@ -1,9 +1,9 @@
 {
-    "version": "2.5.1",
+    "version": "3.0.0",
     "description": "A self-hostable Discord bot built for maximum customization.",
     "homepage": "https://github.com/badluma/Comprobot",
     "license": "MIT",
-    "url": "https://github.com/badluma/Comprobot/releases/download/v2.5.1/comprobot.exe",
-    "hash": "acf44fd2ec82beef2ede91b2cb82f668bf44eab8e57e16497d1b21934952bc5b",
+    "url": "https://github.com/badluma/Comprobot/releases/download/v3.0.0/comprobot.exe",
+    "hash": "a7dcf2ff4912a5875da9c6292c05e33c8c64a1ae5e25bee828cb0b8a0fb212f9",
     "bin": "comprobot.exe"
 }
